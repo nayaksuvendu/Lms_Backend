@@ -6,7 +6,7 @@ const fs=require('fs/promises');
 const sendEmail=require('../utillity/sendEmail.js')
 const crypto=require('crypto');
 const JWT=require('jsonwebtoken');
-const bcrypt=require('bcrypt');
+const bcrypt=require('bcryptjs');
 const dotenv=require('dotenv');
 dotenv.config();
 
