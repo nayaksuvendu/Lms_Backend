@@ -1,7 +1,7 @@
 const app = require('./app.js')
-const dbCon=require('./config/dbcon.js')
+const dbCon = require('./config/dbcon.js')
 const cloudinary = require('cloudinary'); 
-const {config}=require('dotenv') ;
+const {config} = require('dotenv') ;
 config();
 
 const port=process.env.PORT || 9099
