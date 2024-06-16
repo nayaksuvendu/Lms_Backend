@@ -17,7 +17,7 @@ app.use(Express.json());
 app.use(Express.urlencoded({extended:true})); // parsing encoded url
 
 app.use(cors({ // it allow this frontend_url only to access the server and connect frontend and server
-    origin:[process.env.FRONTEND_URL],
+    origin:[process.env.FRONTEND_URL,'https://nayaktutorial.vercel.app'],
     credentials:true,
 }))
 
